@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<title>SW RP</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("bg2.png");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="file:///C:/Users/Lenovo/Desktop/SW RP/index.html#home" class="w3-bar-item w3-button w3-wide">SW RP</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="file:///C:/Users/Lenovo/Desktop/SW RP/rules.html#home" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> Правила</a>
+      <a href="https://discord.gg/s3U6vz6zBg" class="w3-bar-item w3-button"><i class="fa fa-paper-plane"></i> Группа в дискорде</a>
+      <a href="file:///C:/Users/Lenovo/Desktop/SW RP/start.html#home" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Как начать играть?</a>
+      
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Закрыть ×</a>
+  <a href="file:///C:/Users/Lenovo/Desktop/SW RP/rules.html#home" onclick="w3_close()" class="fa fa-usd">Правила</a>
+  <a href="https://discord.gg/s3U6vz6zBg" onclick="w3_close()" class="fa fa-paper-plane">Группа в дискорде</a>
+  <a href="file:///C:/Users/Lenovo/Desktop/SW RP/start.html#home" onclick="w3_close()" class="fa fa-envelope">Как начать играть</a>
+
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-black" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Правила:</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">SW RP - 1.7.10</span><br>
+    <span class="w3-large"><h3>ПГ - "Power Gaming" - Изображение из себя героя(Идти безоружным на человека у которого оно есть.)<br>
+ Fear Rp - Игрок должен боятся того, чего боялся бы в реальной жизни.<br>
+НонРП - Правило, охватывающее всё, что не может случиться в жизни. <br>
+<br>
+[1.1] Администрация имеет право заблокировать вам доступ к серверу без объяснения причины или по причине неуказнной в правилах ( но только при осведомлении создателя ).<br>
+[1.2] Запрещено использовать любые баги игры или сервера. (наказание: бан навсегда)<br>
+[1.3] Запрещен спам, распространение сторонних ресурсов(проектов и т.д). (наказание: бан навсегда)<br>
+[1.4] Запрещены оскорбления вне рп процесса, оскорбление родственников и родителей. (наказание: на усмотрение администрации)<br>
+[1.5] Запрещено разжигать любые конфликты с другими игроками и администраторами вне РП ситуаций. (наказание: на усмотрение администрации)<br>
+[1.6] Запрещено использование программ которые дают преимущество в игре. (наказание: бан навсегда)<br>
+[1.7] Запрещена продажа вещей/игровой валюты/транспорта за реальные деньги. (наказание: бан навсегда)<br>
+[1.8] Если вы нашли баг сообщите о нем администрации проекта.<br>
+Запрещено нападать на страну в первые 2 дня вайпа<br>
+Запрещено вовевать без войны искл. ивенты (бункеры, военные объекты, захваты и т.д)<br>
+Нельзя делать войну без причины<br>
+Чтобы страна могла начинать войну в ней должна быть военная часть и завод (здания похожие на это, ваша фантазия)</h3></span>
+	
+  </div> 
+</header>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Наверх</a>
+
+  <p>Группа администрации SW RP</p>
+</footer>
+ 
+
+<script>
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
