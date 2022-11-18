@@ -1,0 +1,14 @@
+main {
+  text-align: center;
+}
+.main-text {
+  background: rgba(35, 31, 33, 0.8);
+  border-radius: 5vh;
+  display: inline-block;
+  line-height: 5vh;
+  margin-top: 5vh;
+  width: 60vw;
+}
+.main-text .title {
+  text-align: center;
+}
